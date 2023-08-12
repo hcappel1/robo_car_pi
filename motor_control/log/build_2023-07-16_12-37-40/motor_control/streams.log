@@ -1,0 +1,29 @@
+[3.616s] Invoking command in '/home/hcappel1/ros2_ws/src/motor_control': PYTHONPATH=/home/hcappel1/ros2_ws/src/motor_control/build/motor_control/prefix_override:/home/hcappel1/ros2_ws/src/motor_control/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/motor_control build --build-base /home/hcappel1/ros2_ws/src/motor_control/build/motor_control/build install --record /home/hcappel1/ros2_ws/src/motor_control/build/motor_control/install.log --single-version-externally-managed
+[4.820s] running egg_info
+[4.822s] writing build/motor_control/motor_control.egg-info/PKG-INFO
+[4.823s] writing dependency_links to build/motor_control/motor_control.egg-info/dependency_links.txt
+[4.824s] writing entry points to build/motor_control/motor_control.egg-info/entry_points.txt
+[4.825s] writing requirements to build/motor_control/motor_control.egg-info/requires.txt
+[4.826s] writing top-level names to build/motor_control/motor_control.egg-info/top_level.txt
+[4.835s] reading manifest file 'build/motor_control/motor_control.egg-info/SOURCES.txt'
+[4.839s] writing manifest file 'build/motor_control/motor_control.egg-info/SOURCES.txt'
+[4.840s] running build
+[4.840s] running build_py
+[4.841s] copying motor_control/pid_omega.py -> /home/hcappel1/ros2_ws/src/motor_control/build/motor_control/build/lib/motor_control
+[4.843s] running install
+[4.844s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.845s]   warnings.warn(
+[4.845s] running install_lib
+[4.849s] copying /home/hcappel1/ros2_ws/src/motor_control/build/motor_control/build/lib/motor_control/pid_omega.py -> /home/hcappel1/ros2_ws/src/motor_control/install/motor_control/lib/python3.10/site-packages/motor_control
+[4.853s] byte-compiling /home/hcappel1/ros2_ws/src/motor_control/install/motor_control/lib/python3.10/site-packages/motor_control/pid_omega.py to pid_omega.cpython-310.pyc
+[4.857s] running install_data
+[4.860s] running install_egg_info
+[4.867s] removing '/home/hcappel1/ros2_ws/src/motor_control/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+[4.869s] Copying build/motor_control/motor_control.egg-info to /home/hcappel1/ros2_ws/src/motor_control/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[4.877s] running install_scripts
+[4.971s] Installing encoder_count_node script to /home/hcappel1/ros2_ws/src/motor_control/install/motor_control/lib/motor_control
+[4.973s] Installing encoder_data_node script to /home/hcappel1/ros2_ws/src/motor_control/install/motor_control/lib/motor_control
+[4.975s] Installing pid_omega_node script to /home/hcappel1/ros2_ws/src/motor_control/install/motor_control/lib/motor_control
+[4.976s] Installing wheel_omega_node script to /home/hcappel1/ros2_ws/src/motor_control/install/motor_control/lib/motor_control
+[4.978s] writing list of installed files to '/home/hcappel1/ros2_ws/src/motor_control/build/motor_control/install.log'
+[5.121s] Invoked command in '/home/hcappel1/ros2_ws/src/motor_control' returned '0': PYTHONPATH=/home/hcappel1/ros2_ws/src/motor_control/build/motor_control/prefix_override:/home/hcappel1/ros2_ws/src/motor_control/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/motor_control build --build-base /home/hcappel1/ros2_ws/src/motor_control/build/motor_control/build install --record /home/hcappel1/ros2_ws/src/motor_control/build/motor_control/install.log --single-version-externally-managed

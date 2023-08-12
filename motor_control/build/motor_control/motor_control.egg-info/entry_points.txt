@@ -1,0 +1,6 @@
+[console_scripts]
+encoder_count_node = motor_control.encoder_count:main
+encoder_data_node = motor_control.encoder_data:main
+pid_omega_node = motor_control.pid_omega:main
+wheel_omega_node = motor_control.wheel_omega:main
+
